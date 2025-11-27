@@ -1,0 +1,226 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f0f3ff;
+    color: #333;
+}
+
+
+/* Header */
+header {
+    background: #1f3dab;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+nav a {
+    color: white;
+    margin-left: 25px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(135deg, #2b59ff, #00ccff);
+    color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.hero h2 span {
+    color: #ffeb3b;
+    font-weight: bold;
+}
+
+.hero p {
+    margin: 15px auto 30px;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 30px;
+    background: white;
+    color: #2b59ff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ffeb3b;
+    color: black;
+}
+
+.btn.outline {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn.outline:hover {
+    background: white;
+    color: #2b59ff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    background: #1f3dab;
+    color: white;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+/* GLOBAL STYLES */
+
+/* NAVBAR */
+
+/* MAIN WHITE BOX */
+.container {
+    background: white;
+    width: 75%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* ------------------------------
+    PROFILE SECTION
+------------------------------ */
+.profile-section {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #0b74d6;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.profile-name {
+    margin-top: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #002060;
+}
+
+.profile-role {
+    font-size: 18px;
+    color: #0066cc;
+    margin-top: 5px;
+}
+
+/* ------------------------------
+    SECTION TITLES
+------------------------------ */
+.section-title {
+    font-size: 24px;
+    color: #0050c8;
+    border-left: 5px solid #0050c8;
+    padding-left: 10px;
+    margin-top: 35px;
+}
+
+/* ------------------------------
+    EDUCATION TABLE
+------------------------------ */
+.edu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.edu-table th {
+    background: #0b74d6;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.edu-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* ------------------------------
+    LISTS (Skills, Certs, Achievements)
+------------------------------ */
+.list {
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.list li {
+    margin-bottom: 8px;
+}
+
+/* CONTACT INFO */
+.container p {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.content {
+    padding: 30px;
+    background: white;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background: #eeeeee;
+}
